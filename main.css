@@ -1319,7 +1319,7 @@ body {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
 }
-  /* ========================================= */
+/* ========================================= */
 /* TAHAP 3: VARIASI WARNA UNGU BEDA-BEDA     */
 /* ========================================= */
 
@@ -1334,13 +1334,13 @@ body {
 .flower--3 .flower__leaf {
   background-image: linear-gradient(to top, #311b92, #7e57c2) !important;
 }
+
 /* ========================================= */
-/* TAHAP 4: POSISI DAN WARNA BUNGA KE-4 & 5  */
+/* TAHAP 4: POSISI DAN WARNA BUNGA 4 & 5     */
 /* ========================================= */
 
-/* Bunga 4: Agak ke kiri, agak kecil, warna Ungu-Pink */
 .flower--4 {
-  left: 25%;
+  left: 20%;
   transform: scale(0.7) rotate(-10deg);
   -webkit-animation: moving-flower-2 4s linear infinite;
           animation: moving-flower-2 4s linear infinite;
@@ -1358,9 +1358,8 @@ body {
   background-image: linear-gradient(to top, #d81b60, #ba68c8) !important;
 }
 
-/* Bunga 5: Agak ke kanan, agak kecil, warna Ungu Soft/Pudar */
 .flower--5 {
-  left: 75%;
+  left: 80%;
   transform: scale(0.65) rotate(15deg);
   -webkit-animation: moving-flower-3 4s linear infinite;
           animation: moving-flower-3 4s linear infinite;
@@ -1376,4 +1375,19 @@ body {
 }
 .flower--5 .flower__leaf {
   background-image: linear-gradient(to top, #ce93d8, #f3e5f5) !important;
+}
+
+/* ========================================= */
+/* PERBAIKAN TAMPILAN HP (BATANG NYAMBUNG)   */
+/* ========================================= */
+@media screen and (max-width: 600px) {
+    .pesan-spesial {
+        top: 5%; 
+    }
+    /* Mengecilkan seluruh taman sekaligus biar nyambung & gak nutupin teks */
+    .flowers {
+        transform: scale(0.6) !important;
+        transform-origin: bottom center;
+        margin-bottom: -10vmin; /* Menarik rumput yang tenggelam agar naik lagi */
+    }
 }
