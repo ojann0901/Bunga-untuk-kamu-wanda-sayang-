@@ -1391,3 +1391,18 @@ body {
         margin-bottom: -10vmin; /* Menarik rumput yang tenggelam agar naik lagi */
     }
 }
+/* ========================================= */
+/* PERBAIKAN JARAK BUNGA AGAR TIDAK DEMPET   */
+/* ========================================= */
+
+.flower--1 {
+  left: 40% !important; /* Geser bunga utama sedikit ke tengah */
+}
+
+.flower--4 {
+  left: 12% !important; /* Geser bunga ke-4 lebih jauh ke ujung kiri */
+}
+
+.flower--5 {
+  left: 85% !important; /* Geser bunga ke-5 agar rapi di ujung kanan */
+}
