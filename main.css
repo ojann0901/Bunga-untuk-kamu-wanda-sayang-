@@ -1316,6 +1316,21 @@ body {
   }
 }
 .container * {
+  /* ========================================= */
+/* TAHAP 3: VARIASI WARNA UNGU BEDA-BEDA     */
+/* ========================================= */
+
+.flower--1 .flower__leaf {
+  background-image: linear-gradient(to top, #4a148c, #8e24aa) !important;
+}
+
+.flower--2 .flower__leaf {
+  background-image: linear-gradient(to top, #ba68c8, #e1bee7) !important;
+}
+
+.flower--3 .flower__leaf {
+  background-image: linear-gradient(to top, #311b92, #7e57c2) !important;
+}
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
 }
