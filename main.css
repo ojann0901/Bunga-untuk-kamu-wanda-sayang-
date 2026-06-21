@@ -1319,53 +1319,18 @@ body {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
 }
-/* ========================================= */
+  /* ========================================= */
 /* TAHAP 3: VARIASI WARNA UNGU BEDA-BEDA     */
 /* ========================================= */
-.flower--1 .flower__leaf { background-image: linear-gradient(to top, #4a148c, #8e24aa) !important; }
-.flower--2 .flower__leaf { background-image: linear-gradient(to top, #ba68c8, #e1bee7) !important; }
-.flower--3 .flower__leaf { background-image: linear-gradient(to top, #311b92, #7e57c2) !important; }
 
-/* ========================================= */
-/* TAHAP 4: ANIMASI WARNA BUNGA 4 & 5        */
-/* ========================================= */
-.flower--4 {
-  transform: scale(0.7) rotate(-10deg);
-  -webkit-animation: moving-flower-2 4s linear infinite;
-          animation: moving-flower-2 4s linear infinite;
+.flower--1 .flower__leaf {
+  background-image: linear-gradient(to top, #4a148c, #8e24aa) !important;
 }
-.flower--4 .flower__line { height: 45vmin; animation-delay: 0.5s; }
-.flower__leafs--4 { animation-delay: 1.2s; }
-.flower--4 .flower__leaf { background-image: linear-gradient(to top, #d81b60, #ba68c8) !important; }
 
-.flower--5 {
-  transform: scale(0.65) rotate(15deg);
-  -webkit-animation: moving-flower-3 4s linear infinite;
-          animation: moving-flower-3 4s linear infinite;
+.flower--2 .flower__leaf {
+  background-image: linear-gradient(to top, #ba68c8, #e1bee7) !important;
 }
-.flower--5 .flower__line { height: 50vmin; animation-delay: 0.8s; }
-.flower__leafs--5 { animation-delay: 1.5s; }
-.flower--5 .flower__leaf { background-image: linear-gradient(to top, #ce93d8, #f3e5f5) !important; }
 
-/* ========================================= */
-/* TAHAP 5: JARAK 5 BUNGA BIAR GAK DEMPET    */
-/* ========================================= */
-.flower--4 { left: 10vw !important; } /* Bunga ke-4 di ujung kiri */
-.flower--1 { left: 30vw !important; } /* Bunga ke-1 di tengah kiri */
-.flower--2 { left: 50vw !important; } /* Bunga ke-2 pas di tengah */
-.flower--3 { left: 70vw !important; } /* Bunga ke-3 di tengah kanan */
-.flower--5 { left: 90vw !important; } /* Bunga ke-5 di ujung kanan */
-
-/* ========================================= */
-/* PERBAIKAN UKURAN HP (TIDAK KEKECILAN)     */
-/* ========================================= */
-@media screen and (max-width: 600px) {
-    .pesan-spesial {
-        top: 5%; 
-    }
-    .flowers {
-        transform: scale(0.9) !important; /* Dibesarkan lagi biar pas */
-        transform-origin: bottom center;
-        margin-bottom: -5vmin;
-    }
+.flower--3 .flower__leaf {
+  background-image: linear-gradient(to top, #311b92, #7e57c2) !important;
 }
